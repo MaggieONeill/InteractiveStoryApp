@@ -1,6 +1,8 @@
 package com.example.guest.interactivestoryapp.ui;
 //package com.example.guest.interactivestoryapp.R;
 
+import android.support.v7.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
