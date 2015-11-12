@@ -10,9 +10,11 @@ import com.example.guest.interactivestoryapp.R;
 /**
  * Created by Guest on 11/11/15.
  */
-public class Story extends AppCompatActivity {
+public class StoryActivity extends AppCompatActivity {
 
-    public static final String TAG = Story.class.getSimpleName();
+
+
+    public static final String TAG = StoryActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

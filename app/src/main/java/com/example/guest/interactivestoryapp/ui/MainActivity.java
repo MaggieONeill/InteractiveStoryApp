@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void startStory(String name) {
-        Intent intent = new Intent(this, Story.class);
+        Intent intent = new Intent(this, StoryActivity.class);
         intent.putExtra(getString(R.string.key_name), name);
         startActivity(intent);
     }
