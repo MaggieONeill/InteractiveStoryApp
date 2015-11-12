@@ -9,7 +9,10 @@ public class Choice {
     private String mText;
     private int mNextPage;
 
-    public choice()
+    public Choice(String text, int nextPage){
+        String mText = text;
+        int mNextPage = nextPage;
+    }
     public String getText() {
         return mText;
     }
